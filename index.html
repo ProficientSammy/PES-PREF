@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize Your Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="preferences-panel">
+        <h2>Customize Your Page</h2>
+        <label for="theme-select">Choose a Theme:</label>
+        <select id="theme-select">
+            <option value="theme-light">Light Theme</option>
+            <option value="theme-dark">Dark Theme</option>
+            <option value="theme-colorful">Colorful Theme</option>
+        </select>
+        <label for="list-style-select">Choose a List Style:</label>
+        <select id="list-style-select">
+            <option value="style-disc">Disc Style</option>
+            <option value="style-square">Square Style</option>
+            <option value="style-circle">Circle Style</option>
+        </select>
+    </div>
+    <div id="list-container">
+        <h2>Dynamic List</h2>
+        <ul id="dynamic-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

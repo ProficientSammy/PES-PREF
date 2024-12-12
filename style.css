@@ -1,0 +1,104 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Preferences panel styling */
+#preferences-panel {
+    padding: 30px;
+    background: #ffffff;
+    border-bottom: 2px solid #ccc;
+    max-width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#preferences-panel h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: inherit; /* Adjust to follow the theme */
+}
+
+#preferences-panel label {
+    font-size: 18px;
+    color: inherit; /* Adjust to follow the theme */
+    margin-bottom: 10px;
+    display: block;
+}
+
+#preferences-panel select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+/* List container styling */
+#list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#dynamic-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#dynamic-list li {
+    font-size: 48px; /* Increase font size for list items */
+    padding: 8px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Light theme styles */
+.theme-light {
+    background: #ffffff;
+    color: #333;
+}
+
+/* Dark theme styles */
+.theme-dark {
+    background: #2c2c2c;
+    color: #ffffff;
+}
+
+.theme-dark #preferences-panel {
+    background: #3c3c3c; /* Darker panel background */
+    color: #ffffff; /* White text for visibility */
+    border-bottom: 2px solid #555;
+}
+
+.theme-dark #preferences-panel select {
+    background-color: #4c4c4c;
+    color: #ffffff;
+    border: 1px solid #666;
+}
+
+/* Colorful theme styles */
+.theme-colorful {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    color: #000;
+}
+
+/* List style customization */
+.style-disc li {
+    list-style-type: disc;
+}
+
+.style-square li {
+    list-style-type: square;
+}
+
+.style-circle li {
+    list-style-type: circle;
+}
